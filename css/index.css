@@ -1,0 +1,91 @@
+@import url('./reset.css');
+@import url('//at.alicdn.com/t/c/font_3641734_hs3v35ym1hq.css');
+/* 通用样式 */
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.center{
+    text-align: center;
+}
+/* 通用样式结束 */
+
+.container {
+    width : 1181px;
+    background: #ededed;
+    font-size: 42px;
+}
+.container-item{
+    width:1038x;
+    border-radius: 18px;
+    margin: 0 22PX;
+}
+.container .header{
+    background-color: #29ae66;
+    color:#fff;
+    padding: 0 210px;
+}
+.container .header .header-item{
+    /* width:127px; */
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.header .header-item .icon-description{
+    display: block;
+}
+.container .header .header-item img{
+    display: block;
+    width: 92px;
+    height: 73px;
+    margin: 0 auto;
+    margin-bottom: 54px;
+}
+.container .header .header-item .price{
+    display: block;
+    margin-top: 16px;
+    color: #93d7b3;
+}
+.container .content .content-item{
+    background: #fff;
+    margin-top: 20px;
+    /* margin-right: 110px; */
+    padding-left: 45px;
+}
+.container .content .content-item .top{
+    padding-top: 53px;
+    margin-bottom: 80px;
+    font-size: 31px;
+    color: #737373;
+}
+.container .content .content-item .bottom ul li{
+    margin-right: 110px;
+    margin-bottom: 138px;
+}
+.container .content .content-item .bottom ul li:nth-child(4n){
+    margin-right: 62px;
+}
+.container .content .content-item .bottom ul li img{
+    width: 70px;
+    height: 63px;
+    display: block;
+    margin: 0 auto;
+}
+.container .content .content-item .bottom ul li span{
+    display: block;
+    margin-top: 40px;
+    font-size: 35px;
+    color:#191919;
+}
+.container .content .content-item .bottom ul li.baoxianfuwu span{
+    margin-top: 30px;
+}
+.container .content .content-item .bottom ul li.baoxianfuwu img{
+    height: 80px;
+}
